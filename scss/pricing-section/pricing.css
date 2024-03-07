@@ -1,0 +1,48 @@
+.pricing-section {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.pricing-section .col-lg-4 {
+  margin-top: 40px !important;
+}
+.pricing-section .card-wrapper {
+  background-color: #ececec;
+}
+.pricing-section .card-wrapper .card-header {
+  padding: 4rem 2rem;
+  color: #fff;
+}
+.pricing-section .card-wrapper .personal {
+  background: #5073ff;
+}
+.pricing-section .card-wrapper .professional {
+  background: #50bcff;
+}
+.pricing-section .card-wrapper .business {
+  background: #001038;
+}
+.pricing-section .card-wrapper .card-body {
+  padding: 30px 20px;
+}
+.pricing-section .card-wrapper .card-body ul {
+  list-style: none;
+}
+.pricing-section .card-wrapper .card-body ul li {
+  position: relative;
+  margin-bottom: 20px;
+}
+.pricing-section .card-wrapper .card-body ul li::before {
+  position: absolute;
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  left: -35px;
+  font-size: 22px;
+  top: 3px;
+  font-weight: 500;
+  color: #8338f5;
+  display: inline-block;
+}
+.pricing-section .card-wrapper .card-footer {
+  padding-bottom: 30px;
+  padding-left: 20px;
+}/*# sourceMappingURL=pricing.css.map */

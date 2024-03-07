@@ -1,0 +1,39 @@
+footer{
+    a{
+        text-decoration: none;
+        display: inline-block;
+    }
+    .social-icon{
+        margin-right: 5px;
+        display: inline-flex;
+        flex-direction: column;
+        width: 30px;
+        height: 30px;
+        line-height: 1em;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #6b6b6b;
+        color: #282828;
+        transition: all .3s;
+
+    }
+    .social-icon:hover{
+        color: #0156b8;
+        border-color: #0156b8;
+    }
+
+    .email-form{
+        outline: none;
+        padding: 5px 20px;
+        margin: 0px;
+    }
+
+    .subscribe-btn{
+        margin: 0px!important;
+        line-height: 1em;
+        padding: 10px 15px;
+        margin-right: 5px;
+        display: inline-block;
+    }
+}

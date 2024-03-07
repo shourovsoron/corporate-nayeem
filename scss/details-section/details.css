@@ -1,0 +1,34 @@
+.details-section {
+  padding: 100px 0px;
+}
+.details-section .details-image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+  -o-object-position: center;
+     object-position: center;
+  height: 420px;
+}
+.details-section ul {
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.details-section ul li {
+  position: relative;
+  padding-bottom: 30px;
+}
+.details-section ul li p {
+  max-width: 600px;
+}
+.details-section ul li::before {
+  position: absolute;
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  left: -35px;
+  font-size: 22px;
+  top: 3px;
+  font-weight: 500;
+  color: #8338f5;
+  display: inline-block;
+}/*# sourceMappingURL=details.css.map */

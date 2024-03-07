@@ -1,0 +1,15 @@
+.cta-section {
+  padding: 100px 0px;
+  margin-top: 50px;
+  color: #fff;
+  background: #060029;
+}
+.cta-section p {
+  padding: 20px 0px;
+}
+.cta-section .download {
+  background-image: linear-gradient(90deg, rgb(151, 22, 237), rgb(21, 5, 172));
+  outline: none;
+  border: none;
+  display: inline-block;
+}/*# sourceMappingURL=cta.css.map */

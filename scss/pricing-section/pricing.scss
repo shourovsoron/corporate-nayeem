@@ -1,0 +1,54 @@
+.pricing-section{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    .col-lg-4{
+        margin-top: 40px!important;
+    }
+    .card-wrapper{
+        background-color: #ececec;
+
+        .card-header{
+            padding: 4rem 2rem;
+            color: #fff;
+        }
+
+        .personal{
+            background: #5073ff;
+        }
+        .professional{
+            background: #50bcff;
+        }
+
+        .business{
+            background: #001038;
+        }
+
+        .card-body{
+            padding: 30px 20px;
+            ul{
+                list-style: none;
+                li{
+                    position: relative;
+                    margin-bottom: 20px;
+                }
+                li::before{
+                    position: absolute;
+                    content: "\f058";
+                    font-family: 'Font Awesome 5 Free';
+                    left: -35px;
+                    font-size: 22px;
+                    top: 3px;
+                    font-weight: 500;
+                    color: #8338f5;
+                    display: inline-block;
+                }
+            }
+        }
+
+        .card-footer{
+            padding-bottom: 30px;
+            padding-left: 20px;
+        }
+    }
+
+}

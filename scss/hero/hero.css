@@ -1,0 +1,27 @@
+.hero-section {
+  padding: 120px 0px;
+  background-image: url(../../img/hero-imag.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+.hero-section h1 {
+  color: #fff;
+  text-shadow: 0px 1px 3px #2e2e2e;
+  margin-top: 50px;
+}
+.hero-section p {
+  margin-top: 20px;
+  color: #fff;
+  text-shadow: 0px 1px 3px #2e2e2e;
+}
+.hero-section button {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-image: linear-gradient(90deg, rgb(151, 22, 237), rgb(21, 5, 172));
+  outline: none;
+  padding: 10px 25px;
+  line-height: 1em;
+  border: none;
+  display: inline-block;
+}/*# sourceMappingURL=hero.css.map */

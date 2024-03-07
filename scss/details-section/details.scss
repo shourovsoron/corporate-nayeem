@@ -1,0 +1,42 @@
+.details-section{
+    padding: 100px 0px;
+
+    .details-image img{
+        object-fit: cover;
+        max-width: 100%;
+        object-position: center;
+        height: 420px;
+    }
+
+
+   ul{
+
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 20px;
+
+
+    li{
+        position: relative;
+        padding-bottom: 30px;
+        p{
+            max-width: 600px;
+
+        }
+    }
+    li::before{
+        position: absolute;
+        // content: "\f058";
+        content: "\f058";
+        font-family: 'Font Awesome 5 Free';
+        left: -35px;
+        font-size: 22px;
+        top: 3px;
+        font-weight: 500;
+        color: #8338f5;
+        display: inline-block;
+
+
+    }
+   }
+}
